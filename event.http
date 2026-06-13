@@ -1,0 +1,11 @@
+### Create Event
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Hackathon",
+  "description": "24 hour coding event"
+}
+
+### Register Student for Event
+POST http://localhost:8080/events/2/register/2
